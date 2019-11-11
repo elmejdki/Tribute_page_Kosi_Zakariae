@@ -1,4 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    box-sizing: border-box;
+    background: linear-gradient( to left, rgb(228, 217, 217), rgb(228, 211, 211) );
+
+}
+
+#title {
+    padding: 30px;
+    font-size: 55px;
+}
+
 #image {
-    max-width: 300px;
+    max-width: 1000px;
     display: block;
+    margin: 20px auto;
+}
+
+#img-div {
+    width: 90%;
+    background-color: white;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+#par {
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+ul {
+    max-width: 600px;
+    margin: 30px auto;
+    text-align: justify;
+}
+
+li {
+    margin: 20px;
+}
+
+#tribute-info {
+    font-size: 25px;
+    font-weight: 600;
+    margin: 30px;
+}
+
+#bottom {
+    margin: 20px;
+    font-weight: 600;
 }
